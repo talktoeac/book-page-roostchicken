@@ -1,0 +1,34 @@
+.premise__info_section {
+  width: 100%;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* #region Premise SECTION-INFO__INFO */
+p.premise__info_section__info {
+  margin-bottom: 1.15em;
+  display: flex;
+  align-items: center;
+}
+p.premise__info_section__info .img {
+  width: 1.8em;
+  margin-right: 0.25em;
+}
+/* #endregion Premise SECTION-INFO__INFO */
+
+@media only screen and (min-width: 520px) {
+  .premise__info_section {
+    grid-column: 2/4;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  .premise__info_section {
+    grid-column: 2/3;
+    font-size: 1.2em;
+  }
+}

@@ -1,0 +1,41 @@
+/* #region ACTIONS */
+.premise__actions {
+  display: flex;
+  flex-direction: column;
+}
+.premise__actions ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.premise__actions li {
+  width: 100%;
+}
+.premise__actions li:not(:last-child) {
+  margin-right: 0.5em;
+}
+/* #endregion ACTIONS */
+
+@media only screen and (min-width: 520px) {
+}
+
+@media only screen and (min-width: 780px) {
+  .premise__actions {
+    width: 240px;
+  }
+  .premise__actions ul {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .premise__actions ul li {
+    margin-bottom: 1em;
+    width: auto;
+  }
+  .premise__actions img {
+    margin-left: 0.25em;
+  }
+
+  .premise__actions li:not(:last-child) {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "form": {
+    "person": "persona",
+    "persons": "personas"
+  },
+  "local": {
+    "bookNow": "Reserva ahora",
+    "sanAndres": {
+      "redirect": "https://roostchickenspain.com/reservas/roost-chicken-san-andres-malasana/"
+    },
+    "paseoDelPrado": {
+      "redirect": "https://roostchickenspain.com/reservas/roost-chicken-paseo-del-prado-atocha/"
+    }
+  }
+}

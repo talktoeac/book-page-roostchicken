@@ -1,0 +1,11 @@
+.container * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+
+  --red: #ff0000;
+  --black: black;
+  --color-border: var(--red);
+}

@@ -1,0 +1,20 @@
+.amenities {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.amenities img {
+  width: 30px;
+}
+
+@media only screen and (min-width: 520px) {
+  .amenities {
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+  .amenities img:not(:last-child) {
+    margin-right: 1em;
+  }
+}

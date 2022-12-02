@@ -1,0 +1,25 @@
+.premise__title {
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 335px) {
+  .premise__title {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  .premise__title {
+    font-size: 15px;
+  }
+  .premise__title br {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  .premise__title {
+    font-size: 1.5em;
+  }
+}

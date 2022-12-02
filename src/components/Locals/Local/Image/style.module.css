@@ -1,0 +1,16 @@
+.premise__img img {
+  border-radius: 1em;
+  max-width: 160px;
+}
+
+@media only screen and (min-width: 520px) {
+  .premise__img {
+    min-width: 200px;
+  }
+  .premise__img img {
+    max-width: 220px;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+}

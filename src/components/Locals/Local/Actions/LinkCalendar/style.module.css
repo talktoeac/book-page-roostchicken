@@ -1,0 +1,60 @@
+a.link {
+  background-color: var(--red);
+  padding: 5px;
+  color: white !important;
+  transition: 0.3s;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a.link:hover {
+  background: var(--black);
+}
+
+.btn_hour {
+  display: flex;
+  align-items: center;
+}
+
+.btn_hour_icon {
+  height: 26px;
+}
+a.link::before {
+  content: "RESERVAR ";
+  display: none;
+  width: 0;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+img.logo {
+  display: none;
+  /* width: 53px; */
+  width: 17px;
+  margin-top: 0.25em;
+}
+
+@media only screen and (min-width: 520px) {
+  img.logo {
+    display: inline-flex;
+  }
+  a.link {
+    padding: 0.5em 1em;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  a.link::before {
+    display: inline-flex;
+  }
+  a.link:hover::before {
+    width: 100px;
+  }
+  a.link {
+    padding: 0.5em 1.5em !important;
+    display: inline-flex;
+    align-items: center;
+  }
+}
